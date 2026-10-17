@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Expo / build output
+.expo/
+dist/
+web-build/
+
+# Tests and logs
+coverage/
+*.log
+
+# R history
+.Rhistory
+
+# OS files
+.DS_Store
+Thumbs.db
