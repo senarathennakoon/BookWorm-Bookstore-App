@@ -68,7 +68,7 @@ npm install
 npx expo start
 ```
 
-Set the backend API URL used by the app (see `mobile/constants`) to point to your running backend, then open the app with Expo Go or an emulator.
+Copy `mobile/.env.example` to `mobile/.env` and set `EXPO_PUBLIC_API_URL` to your running backend (for example `http://<your-computer-ip>:3000/api`). If it is not set, the app falls back to a local backend on port 3000. Then open the app with Expo Go or an emulator.
 
 ## Testing
 
