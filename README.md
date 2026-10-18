@@ -58,7 +58,13 @@ cd backend
 npm install
 ```
 
-Copy `backend/.env.example` to `backend/.env` and fill in your own values (MongoDB URI, a random JWT secret, and your Cloudinary credentials). Then start the server using the script defined in `backend/package.json`.
+Copy `backend/.env.example` to `backend/.env` and fill in your own values (MongoDB URI, a random JWT secret, and your Cloudinary credentials). Then start the server (uses nodemon):
+
+```bash
+npm run dev
+```
+
+By default the server listens on the port set by `PORT` in your `.env` (3000 in `.env.example`).
 
 ### 2. Mobile app
 
